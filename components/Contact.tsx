@@ -8,9 +8,17 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 md:py-24 bg-brand-primary/[0.04]">
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="font-heading text-3xl md:text-4xl tracking-tight text-brand-text [text-wrap:balance] mb-10">
+        <h2 className="font-heading text-3xl md:text-4xl tracking-tight text-brand-text [text-wrap:balance] mb-6">
           Call to book or find the room
         </h2>
+        <p className="max-w-prose text-brand-text/80 leading-relaxed mb-10">
+          The room sits at 9501 Clifford St Ste 133 in Fort Worth, tucked into a
+          small suite that is easy to miss if you are not looking for it. Calling
+          ahead is the fastest way to check availability, and a quick call also
+          gives a chance to confirm which service fits best before the visit
+          starts. Walk-ins are welcome whenever the schedule allows, but a
+          reserved time means less waiting on a busy evening.
+        </p>
 
         <div className="grid md:grid-cols-2 gap-10 items-stretch">
           <div className="flex flex-col justify-center gap-6">
