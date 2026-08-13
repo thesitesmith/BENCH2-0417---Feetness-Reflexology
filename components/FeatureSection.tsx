@@ -3,15 +3,19 @@ import Image from 'next/image';
 const points = [
   {
     title: `Never rushed`,
-    desc: `Sessions run the full length booked, with pressure adjusted as the visit goes rather than cut short at a clock.`,
+    desc: `Sessions run the full length booked, with pressure adjusted as the visit goes rather than cut short at a clock. Whether it is a quick chair session on a lunch break or a longer full body appointment, the time on the table stays the time that was promised.`,
   },
   {
     title: `Open when they say they are`,
-    desc: `Hours hold steady across the week, including evenings, so a visit fits after work rather than before it.`,
+    desc: `Hours hold steady across the week, including evenings, so a visit fits after work rather than before it. Monday through Saturday the room stays open until 9 PM, and Sunday hours run from 11 AM to 8 PM for anyone whose week does not leave room for a weekday appointment.`,
   },
   {
     title: `Pressure set by the client`,
-    desc: `The depth of the thumb work is checked and adjusted through the session instead of applied the same way to everyone.`,
+    desc: `The depth of the thumb work is checked and adjusted through the session instead of applied the same way to everyone. A client who wants a firmer dig into the arch gets it, and a client who wants something lighter is met there too, with check-ins along the way rather than guesswork.`,
+  },
+  {
+    title: `A room built for repeat visits`,
+    desc: `Regulars tend to come back on a schedule, whether that is weekly after a long shift on their feet or once a month to keep tension from building back up. The room stays familiar and the approach stays consistent, so a second or third visit feels like picking up where the last one left off.`,
   },
 ];
 
